@@ -1,0 +1,19 @@
+#gameboard {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.brown {
+    background-color: burlywood;
+}
