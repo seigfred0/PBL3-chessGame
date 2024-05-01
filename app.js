@@ -70,5 +70,5 @@ function dragDrop(e) {
     e.stopPropagation();
     e.target.parentNode.append(draggedElement);
 
-    // e.target.append(draggedElement)
+    e.target.append(draggedElement)
 }
